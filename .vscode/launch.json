@@ -1,0 +1,57 @@
+{
+    // 使用 IntelliSense 了解相关属性。 
+    // 悬停以查看现有属性的描述。
+    // 欲了解更多信息，请访问: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: train network",
+            "type": "python",
+            "request": "launch",
+            "program": "model/run_sparse.py",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "Python: network test",
+            "type": "python",
+            "request": "launch",
+            "program": "model/test.py",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "Python: pytorch learn",
+            "type": "python",
+            "request": "launch",
+            "program": "learn/test.py",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "Python: clickhouse to file",
+            "type": "python",
+            "request": "launch",
+            "program": "data/clickhouse-to-file.py",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "Python: preprocess",
+            "type": "python",
+            "request": "launch",
+            "program": "data/preprocess.py",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "Python: compare result",
+            "type": "python",
+            "request": "launch",
+            "program": "data/compare.py",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "Python: generate shortestpath",
+            "type": "python",
+            "request": "launch",
+            "program": "data/gen_shortestpath.py",
+            "console": "integratedTerminal"
+        }
+    ]
+}

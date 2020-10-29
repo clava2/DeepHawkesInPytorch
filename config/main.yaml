@@ -1,0 +1,31 @@
+gen-sequence:
+  main-data-path: "data/original"
+  cascades: "dataset_weibo.txt"
+  cascade-data:
+    train: "cascade_train.txt"
+    val: "cascade_val.txt"
+    test: "cascade_test.txt"
+  shortest-path:
+    train: "shortestpath_train.txt"
+    val: "shortestpath_val.txt"
+    test: "shortestpath_test.txt"
+  observation-time: 3600
+  predict-time: [86400]
+preprocess:
+  main-data-path: "data/original"
+  cascade-data:
+    train: "cascade_train.txt"
+    val: "cascade_val.txt"
+    test: "cascade_test.txt"
+  shortest-path-data:
+    train: "shortestpath_train.txt"
+    val: "shortestpath_val.txt"
+    test: "shortestpath_test.txt"
+  pickle:
+    train: "data_train.pkl"
+    val: "data_val.pkl"
+    test: "data_test.pkl"
+  information: "information.pkl"
+  observation: 3599
+  n-time-interval: 6
+  time-interval: 600
